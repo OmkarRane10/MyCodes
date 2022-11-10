@@ -68,7 +68,42 @@ Q3. List some pros and cons of Python programming language?
  Q10. What are keywords?
  
   -> Python keywords are special reserved words that have specific meanings and purposes and can't be used for anything but for those specific purposes.
+ for ex- int, float, for, if, elif, else, etc
   
  Q11. Can we use keywords as a variable? Support your answer with reason.
+ 
+  -> No, we cannot use keywords as a variable. Keywords define the language's syntax rules and structure, and they cannot be used as variable names.
+  If we use any of the keywords as variable it will throw us a syntax error.
+  
+ Q12. What is indentation? What's the use of indentaion in Python?
+ 
+  -> Python indentation refers to adding white space before a statement to a particular block of code.
+  In another word, all the statements with the same space to the right, belong to the same code block.
+  Python indentation is a way of telling a Python interpreter that the group of statements belongs to a particular block of code.
+  A block is a combination of all these statements.Block can be regarded as the grouping of statements for a specific purpose.
+  It is also convenient and useful for a programmer or viewer who is working on the code to identify that which statments belongs to the particular block   of code.
+  
+ Q13. How can we throw some output in Python?
+ 
+  -> We can throw a output in python using print() function.
+  ex - print('This is sample output')
+ 
+ Q14. What are operators in Python?
+  
+  -> Operators are used to perform operations on variables and values in python.
+  Some of the operators used in python are arithmetic opearators, assignment operators, comparison operators, logical operators,etc.
+  
+ Q15. What is difference between / and // operators?
+ 
+  -> (/) operator is used for the float division and (//) operator is used for integer divison.
+  Generally (//) operaoter is used to ignore the decimal values.
+  
+ Q16. Write a code that gives following as an output. O/P(iNeuroniNeuroniNeuroniNeuron)
+ 
+  -> x = "iNeuron"
+     x *= 4
+     print(x)
+     
+ Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
  
   -> 
