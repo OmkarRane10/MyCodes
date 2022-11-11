@@ -106,4 +106,89 @@ Q3. List some pros and cons of Python programming language?
      
  Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
  
-  -> 
+  -> x = int(input('Enter a number: '))
+     if x%2==0:
+         print('The entered number is a even number')
+     else:
+         print('The entered number is a odd numner')
+         
+  Q18. What are boolean operator?
+  
+   -> Boolean Operators are those operators that result in the Boolean values of True and False. Here Logical check will happen for expression result.
+       ex - and,or and not operators.
+         and -> Returns true if both statements are true 
+          or -> Returns true if one of statements are true
+         not -> Reverse the result, returns false if the result is true
+         
+  Q19. What will the output of the following?
+     1 or 0 ----> 1 (as for 'or' opearator if one value is true then the result will be true)
+
+     0 and 0 ---> 0 (as for 'and' opearator if both the values are true then the result will be true)
+
+     True and False and True ---> False (as in 'and' operator if one value is also false then the result becomes false)
+
+     1 or 0 or 0 ---> 1 (as for 'or' opearator if one value is true then the result will be true)
+     
+  Q20. What are conditional statements in Python?
+  
+    -> A conditional statement is used to handle conditions in a program.
+    These statements guide the program while making decisions based on the conditions encountered by the program.
+    Python has 3 key Conditional Statements: if statement. if-else statement and else statement.
+    
+  Q21. What is use of 'if', 'elif' and 'else' keywords?
+  
+    -> These keywords are used to execute a set of statements or a block of code based on the conditions declared with those keywords.
+    
+  Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+  
+    -> age = int(input('Enter your age: '))
+          if age>=18:
+              print('I can vote')
+          else:
+              print("I can't vote")
+              
+   Q23. Write a code that displays the sum of all the even numbers from the given list.
+   
+    -> numbers = [12, 75, 150, 180, 145, 525, 50]
+       sum=0
+       for i in numbers:
+           if i%2==0:
+               sum=sum+i
+        
+       print(sum)
+       
+   Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+   
+    -> a=int(input("Enter the first number: "))
+       b=int(input("Enter the second number: "))
+       c=int(input("Enter the third number: "))
+
+       if a>b and a>c:
+            print("The highest number is: ",a)
+       elif b>a and b>c:
+            print("The highest number is: ",b)
+       else:
+            print("The highest number is: ",c)
+            
+    Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+
+          ---->> Code :
+                      numbers = [12, 75, 150, 180, 145, 525, 50]
+                        for i in numbers:
+                            if i%5==0:
+                                if i > 150:
+                                    pass
+                                else:
+                                    print(i)
+                                if i > 500:
+                                    break
+                                             
+          
