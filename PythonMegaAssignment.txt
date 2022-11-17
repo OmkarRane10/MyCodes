@@ -1,0 +1,47 @@
+
+Q26. What is a string? How can we declare string in Python?
+
+  -> A string is a series of characters. In Python, anything inside quotes is a string.
+     We can use either single or double quotes to declare astring in python.
+     For example: message = 'This is a string in Python' message = "This is also a string"
+     
+Q27. How can we access the string using its index?
+
+  -> We can access the string using the index number of each character in string.
+     for ex - str1 = "Omkar"
+            print(str1[0])
+            print(str1[1])
+            print(str1[2])
+            print(str1[3])
+            print(str1[4])
+          
+ Q28. Write a code to get the desired output of the following
+      string = "Big Data iNeuron"
+      desired_output = "iNeuron"
+      
+      -> code :   string1 = "Big Data iNeuron"
+                  print('desired_output = "',string1[9: ],'"')
+                  
+ Q29. Write a code to get the desired output of the following
+
+      string = "Big Data iNeuron"
+      desired_output = "norueNi"
+      
+      -> Code : string1 = "Big Data iNeuron"
+         print('desired_output = "',string1[ -1: -8 :-1],'"')
+         
+ Q30. Resverse the string given in the above question.
+
+      -> Code : string1 = "Big Data iNeuron"
+         print('desired_output = "',string1[ -1 : : -1],'"')
+         
+ Q31. How can you delete entire string at once?
+
+      -> We can delete a entire string using the keyword 'del'. syntax : del stringname
+         for ex - string2 = "sample string"
+         del string2
+         
+ Q32. What is escape sequence?
+
+     -> 
+            
