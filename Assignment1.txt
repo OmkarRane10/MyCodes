@@ -58,6 +58,7 @@ Q3. List some pros and cons of Python programming language?
   for ex- int(), float(), str(),etc
   
  Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+ 
   -> Yes, we can take more than one input from the user using single input function. 
   For this purpose we need to use one more function with the input function which is called as split function.
   Here when the input is given by the user, the user needs to enter the values separated by a space so that it could be idnetifies as a different value entered.
