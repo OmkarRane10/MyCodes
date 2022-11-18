@@ -176,20 +176,46 @@
       
   Q51. What is frozen set?
 
-      -> []
+      -> Frozen set is just an immutable version of a Python set object.
+      While elements of a set can be modified at any time, elements of the frozen set remains the same after creation.
+      Due to this, frozen sets can be used as keys in Dictionary or as elements of another set.
+      
+  Q52. How is frozen set different from set?
 
+      -> The elememts in a set can be updated or edited but the elemments in a frozen set cannot be edited or changed once created or declared at the          time of creation.
+      
+  Q53. What is union() in sets? Explain via code.
 
+      -> The union() method returns a set that contains all items from the original set, and all items from the specified set(s).
+         We can specify as many sets as we want, separated by commas.
+         for ex - x = {"a", "b", "c"}
+                  y = {"e", "d", "f"}
+                  z = {"g", "h", "i"}
+                  result = x.union(y, z)
+                  print(result)
+                  
+  Q54. What is intersection() in sets? Explain via code.
 
-
- 
-
-
-
-                
-                
-                
-                
-                
+      -> The intersection() method returns a set that contains the similarity between two or more sets.
+         Meaning: The returned set contains only items that exist in both sets, or in all sets if the comparison is done with more than two sets.
+         ex - x = {"a", "b", "c"}
+              y = {"c", "d", "e"}
+              z = {"f", "g", "c"}
+              result = x.intersection(y,z)
+              print(result)
+              
+  Q55. What is dictionary in Python?
    
+      -> Dictionary is used to store data values in key:value pairs.
+        A dictionary is a collection which is ordered*, mutable and do not allow duplicates.
+        A dictionary consists of a collection of key-value pairs. Each key-value pair maps the key to its associated value.
+        
+  Q56. How is dictionary different from all other data structures.
+
+      -> 
+
+
+           
+  
   
             
