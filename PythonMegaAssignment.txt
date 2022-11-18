@@ -1,11 +1,11 @@
 
-Q26. What is a string? How can we declare string in Python?
+  Q26. What is a string? How can we declare string in Python?
 
   -> A string is a series of characters. In Python, anything inside quotes is a string.
      We can use either single or double quotes to declare a string in python.
      For example: message = 'This is a string in Python' message = "This is also a string"
      
-Q27. How can we access the string using its index?
+  Q27. How can we access the string using its index?
 
   -> We can access the string using the index number of each character in string.
      for ex - str1 = "Omkar"
@@ -15,14 +15,14 @@ Q27. How can we access the string using its index?
             print(str1[3])
             print(str1[4])
           
- Q28. Write a code to get the desired output of the following
+  Q28. Write a code to get the desired output of the following
       string = "Big Data iNeuron"
       desired_output = "iNeuron"
       
       -> code :   string1 = "Big Data iNeuron"
                   print('desired_output = "',string1[9: ],'"')
                   
- Q29. Write a code to get the desired output of the following
+  Q29. Write a code to get the desired output of the following
 
       string = "Big Data iNeuron"
       desired_output = "norueNi"
@@ -30,18 +30,18 @@ Q27. How can we access the string using its index?
       -> Code : string1 = "Big Data iNeuron"
          print('desired_output = "',string1[ -1: -8 :-1],'"')
          
- Q30. Resverse the string given in the above question.
+  Q30. Resverse the string given in the above question.
 
       -> Code : string1 = "Big Data iNeuron"
          print('desired_output = "',string1[ -1 : : -1],'"')
-          
- Q31. How can you delete entire string at once?
+           
+  Q31. How can you delete entire string at once?
 
       -> We can delete a entire string using the keyword 'del'. syntax : del stringname
          for ex - string2 = "sample string"
          del string2
          
- Q32. What is escape sequence?
+  Q32. What is escape sequence?
 
      -> An escape sequence is a sequence of characters that, when used inside a character or string, does not represent itself but is converted into             another character or series of characters.
         Character combinations consisting of a backslash (\) followed by a letter or by a combination of digits are called "escape sequences."
@@ -96,14 +96,100 @@ Q27. How can we access the string using its index?
                   print(type(list5))
                   print("The length of list is:",len(list5))
                   
-   Q39. Add the word "Big" in the 3rd index of the given list.
+  Q39. Add the word "Big" in the 3rd index of the given list.
       lst = ["Welcome", "to", "Data", "course"]
 
       -> We can achieve this using the insert() funtion in the code.
       Code : lst = ["Welcome", "to", "Data", "course"]
              lst.insert(2, "Big")
              print(lst)
-             
+        
+  Q40. What is a tuple? How is it different from list?
+
+      -> Tuple is also used to store multiple values in a single variable.
+         The primary difference between tuples and lists is that tuples are immutable as opposed to lists which are mutable.
+   
+  Q41. How can you create a tuple in Python?
+
+      -> We can create a tuple in python using round brackets assigned to a variable name.
+         for ex  - t1 = (10,20,30,40,50)
+         
+  Q42. Create a tuple and try to add your name in the tuple. Are you able to do it? Support your answer with reason.
+
+      -> No, we cannot add any value in a tuple after a tuple is declared or created. The reason is that the tuples in python are immutable i.e we cannot          change,edit or update any tuple after its declaration.
+      
+  Q43. Can two tuple be appended. If yes, write a code for it. If not, why?
+
+       -> No, we cannot use append function on a tuple but we can add two tuples and store those values in a new tuple using the (+) operator.
+       Code :   t2 = (20,30,40,50)
+                t3 = (30,20,14,12,9,8)
+                t4 = t3 + t2
+                print('The new tuple after appending is:',t4)
+                
+  Q44. Take a tuple as an input and print the count of elements in it.
+
+      -> Code: mytuple = tuple(input('Enter the values of tuple but space separated ').split())
+               print(mytuple)
+               print(len(mytuple))
+               
+  Q45. What are sets in Python?
+
+      -> A set is an unordered collection of items or elements in a single variable. Also sets in python does not allow any duplicate values so only              unique values can be added in a set.
+         A set is mutable so we can perform add and remove operations on a set.
+         Sets can also be used to perform mathematical set operations like union, intersection,etc.
+         
+  Q46. How can you create a set?
+
+      -> A set can be created by placing all the items (elements) inside curly braces {}, separated by comma, or by using the built-in set() function.
+       for ex - set1 = {1,2,3,4,5}
+                 set2 = set()
+                 
+  Q47. Create a set and add "iNeuron" in your set.
+
+      ->  Code : sampleset = set()
+                 sampleset.add('iNeuron')
+                 print(sampleset)
+                 
+  Q48. Try to add multiple values using add() function.
+
+      -> sampleset = set()
+         sampleset.add(1)
+         sampleset.add(2)
+         sampleset.add(7)
+         sampleset.add(4)
+         sampleset.add(5)
+         sampleset.add(6)
+         sampleset.add(3)
+         print(sampleset)
+         
+  Q49. How is update() different from add()?
+  
+      -> update() function is different from the add() function because using update() we can add multiple values at once in a set and using add() we can          only add a single value at a time in a set.
+         for ex - set1.add(1)
+                  set1.add(2)
+                  set1.update([3,4,5])
+                  o/p : {1,2,3,4,5}
+                  
+  Q50. What is clear() in sets?
+  
+      -> The clear() method is used to remove all the elements in a set.
+      
+  Q51. What is frozen set?
+
+      -> []
+
+
+
+
+ 
+
+
+
+                
+                
+                
+                
+                
    
   
             
