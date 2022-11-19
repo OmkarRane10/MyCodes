@@ -212,10 +212,55 @@
         
   Q56. How is dictionary different from all other data structures.
 
-      -> 
+      -> Dictionaries are used to store data values in key:value pairs. The other data structures in python stores direct comma separated values in them.
+         A dictionary is a collection which is ordered*, changeable and do not allow duplicates.
+         Other data structures such as a list allows duplicates in it.
+         
+  Q57. How can we delare a dictionary in Python?
 
+      -> We can delete a whole dictionary by using a keyword known as 'del'.
+         for ex - dict1 = {'name':'omkar',"age":23}
+         del dict1
+         
+  Q58. What will the output of the following?
+        var = {}
+        print(type(var))
 
+      -> The output of the above mentioned code will be <class 'dict'>. This means that the type of data structure defined is of type dictionary.
+      
+  Q59. How can we add an element in a dictionary?
+
+      -> We can add new element in python in the key-value format with the help of keys.
+         for ex - var{}
+                  var['name'] = 'Omkar'
+                  var['age'] = 23
+                  print(var)
+             o/p : {'name': 'Omkar', 'age': 23}
+             
+  Q60. Create a dictionary and access all the values in that dictionary.
+  
+      -> Code : var = {}
+         var['name'] = 'Omkar'
+         var['age'] = 23
+         var['other_details'] = {'color' : 'Fair', 'nationality' : 'Indian'}
+         var['states_visited'] = ['Maharashtra','Karnataka','Goa']
+         var['skills'] = ['Python','SQL','Linux']
+         
+         keyvalues = list(var.values())
+         print('All the values in the dictionary var are:', keyvalues)
+         
+  Q61. Create a nested dictionary and access all the element in the inner dictionary.
+
+      -> Code : dict3 = {}
+                dict3['my_details'] = {'color' : 'Fair', 'nationality' : 'Indian','address':'Mumbai','hobby':'carrom'}
+                print(dict3['my_details'])
+                
+  Q62. What is the use of get() function?
+
+     -> 
            
-  
-  
+           
+           
+           
+       
             
