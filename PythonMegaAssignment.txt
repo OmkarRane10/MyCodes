@@ -362,13 +362,9 @@
                       print(k,v)
                       
                       
-  Coding problems
-
-
-
-
-           
-           
-           
+  Coding problems are solved separately in codingProblems.md file
+  
+  
+ 
        
             
