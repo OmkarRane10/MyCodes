@@ -345,7 +345,27 @@
 
   Q74. What is the use of range() function?
 
-      -> 
+      -> The range() function returns a sequence of numbers, starting from 0 by default, and increments by 1 (by default), and stops before a specified            number in the function.
+         We can specify 3 values in a range() function.
+         start: An integer number specifying at which position to start. Default is 0
+         stop: An integer number specifying at which position to stop (not included).
+         step: An integer number specifying the incrementation. Default is 1
+         for ex - x = range(3, 20, 2)
+                  for n in x:
+                      print(n)
+         
+  Q75. How can you loop over a dictionary?
+
+      -> We can loop over a dictionary by using a for loop.
+         When looping through a dictionary, the return values are the keys of the dictionary, but there are methods to return the values as well.
+         for ex - for k,v in test_dict.items():
+                      print(k,v)
+                      
+                      
+  Coding problems
+
+
+
 
            
            
