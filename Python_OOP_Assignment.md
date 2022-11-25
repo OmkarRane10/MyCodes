@@ -73,18 +73,7 @@ Q9. What is the relationship between classes and modules?
        
 Q10. How do you make instances and classes?
 
-    -> Code : class A:
-    def __init__(self,name):
-        self.name = name
-        print('The name of A person is: ', self.name)
-                   
-class B(A):
-    def __init__(self, bname):
-        super().__init__(bname)
-        print('The name of B person is: ',self.name)
-
-a1 = A('Omkar')
-b1 = B('Omkar')
+    -> 
        
        
        
