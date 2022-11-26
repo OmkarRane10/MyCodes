@@ -127,6 +127,7 @@ Q17. What are the two most important concepts to grasp in order to comprehend Py
         Abstracting something means to give names to things, so that the name captures the basic idea of what a function or a whole program does.
     
 Q18. Describe three applications for exception processing.
+
      -> 1) When we provide a web form for users to fill in and submit.but incase there are a lot of conditions to be handled and the conditions keeps 		changing periodically,you use exception handling to simplify the process.
      	2) database connectivity uses exception handling, this is because the reason for database connectivity failure cannot be predicted and handled as 	  it can be caused by many variables such as power failure, unreachable server,failure at client front/back end and so on.
      	3) Arithmetic exceptions such as division by zero and so on.
